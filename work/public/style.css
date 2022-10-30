@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: darkblue;
 }
 
@@ -9,4 +9,38 @@ img{
 
 body {
     margin: 20px;
+} */
+
+body{
+    background-image:url(./pexels-pixabay-209831.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.back{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:#0d255d;
+    text-shadow:3px 5px gray;
+    text-decoration-color: aliceblue;
+    font-size:100px;
+    background-attachment: fixed;
+    font-family: A; 
+}
+
+.msg{
+    margin-left: 500px;
+    font-size: 25px;
+    color: #162549;
+}
+#form{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+h2{
+    display: inline;
+    color:gray;
 }
