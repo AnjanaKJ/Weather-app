@@ -6,7 +6,7 @@ const hbs= require("hbs")
 const request=require("request")
 const forcast = require("./utils/forcast")
 const geocode = require("./utils/geocode")
-
+const port = process.env.PORT || 3000
 
 app.use(express.static(path.join(__dirname,"./public")))
 const viewspath = path.join(__dirname,"./views")
@@ -96,6 +96,6 @@ app.get("*",(req,res)=>{
     res.render("error")
     
 })
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("server up")
 })
