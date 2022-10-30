@@ -34,9 +34,12 @@ p{
     font-size: 25px;
     color: #162549;
 }
-#form{
-    margin-left: 500px;
-    margin-right: 500px;
+form{
+    width: 600px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
